@@ -1,0 +1,108 @@
+/* about.css */
+.about-container {
+    background:linear-gradient(to right, #9deed1, #78d0e6);
+
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .about-header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:black;
+  }
+  
+  .about-header p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    color:black;
+  }
+  
+  .info-block, .testimonials {
+    margin-top: 40px;
+    padding: 30px;
+    background: #e0f7fa;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .info-block:hover, .testimonials:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .testimonials h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-slider {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .testimonial {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .testimonial:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .testimonial p {
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  .testimonial h4 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .get-in-touch {
+    margin-top: 40px;
+    padding: 30px;
+    background: #e0f7fa;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .get-in-touch:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .get-in-touch .contact-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background: #ff5e62;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .get-in-touch .contact-button:hover {
+    background: #d44e50;
+  }
