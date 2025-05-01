@@ -20,7 +20,7 @@ export default function SinglePost() {
   useEffect(() => {
     const fetchPost = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/posts/${postId}`);
+        const res = await axios.get(`https://bloggers-nook-backend.onrender.com/api/posts/${postId}`);
         setPost(res.data);
         setTitle(res.data.title)
         setDesc(res.data.desc)
