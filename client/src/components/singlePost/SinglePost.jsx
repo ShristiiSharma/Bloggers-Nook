@@ -37,7 +37,7 @@ export default function SinglePost() {
 
   const handleDelete = async()=> {
     try{
-      await axios.delete(`http://localhost:5000/api/posts/${post._id}` , {
+     await axios.delete(`https://bloggers-nook-backend.onrender.com/api/posts/${post._id}` , {
         data: { username: user.username },
       });
       window.location.replace("/");
