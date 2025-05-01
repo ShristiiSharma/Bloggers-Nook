@@ -46,7 +46,7 @@ export default function SinglePost() {
 
   const handleUpdate = async ()=>{
     try{
-      await axios.put(`http://localhost:5000/api/posts/${post._id}` , {
+      await axios.put(`https://bloggers-nook-backend.onrender.com/api/posts/${post._id}` , {
           username: user.username , title , desc,
       });
       //window.location.reload();
