@@ -17,12 +17,18 @@ dotenv.config(); // Load environment variables
 const app = express();
 
 //Enable CORS
+const allowedOrigins = [
+  "http://localhost:3000",
+  "https://bloggers-nook-frontend.onrender.com/" // ← Replace with your actual frontend URL
+];
+
 app.use(cors({
-  origin: "http://localhost:3000", // Allow frontend requests
+  origin: allowedOrigins,
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type"],
   credentials: true
 }));
+
 
 // Middleware
 app.use(express.json());
